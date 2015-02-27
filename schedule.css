@@ -1,0 +1,33 @@
+.misc{background-color:#FFCC00;
+}
+.coms{background-color:#ff3333;
+}
+
+.eat{background-color:#FF0066;
+color:white;
+}
+
+.hr{background-color:#33ccff;
+}
+.compsci{background-color:#00ff00;
+}
+
+
+table {
+  border:groove;
+  border-color:black;
+  text-align:center;
+  border-width:3px;
+}
+th {
+  border:dotted;
+  border-color:red;
+  text-align:center;
+  font-family:fantasy;
+  
+}
+td {
+  border:solid;
+  border-color:black;
+  text-align:center;
+}
