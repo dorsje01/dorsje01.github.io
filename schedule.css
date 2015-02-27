@@ -23,6 +23,7 @@ table {
   border:groove;
   border-color:black;
   text-align:center;
+  font-family:fantasy;
   border-width:3px;
 }
 th {
