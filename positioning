@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>Positioning Assignment</title>
+<style>
+aside {width:200px;position: relative; top: 0px; border:1px solid grey; 
+ background-color: #FFD700;padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+ display:block;
+}
+ 
+section {width:200px;position: relative; top: -10px;border:1px solid grey;
+ background-color: black;padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+ left:100px;
+ display:block;
+}
+ 
+nav {width:200px;position: relative; top: -18px;border:1px solid grey;
+ background-color: #F08080;padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+ left:200px;
+ display:block;
+}
+ 
+ main {width: 600px;background-color:gray;position:relative; top:45px;left:0px;}
+    
+    .coral{color:#F08080;}
+    
+    header { z-index: +1;position: fixed;
+             background-color: black;
+             top: 0px;
+             left: 8px;
+             width: 250px;
+             height: 35px;
+        padding:10px;}
+              
+</style>
+</head>
+<body>
+
+<header class="gold">Jessica Dorsey</header>
+<main>
+<aside>Jessica</aside>
+
+<section class="coral">Elizabeth</section>
+
+<nav>Dorsey</nav>
+</main>
+</body>
+</html>
