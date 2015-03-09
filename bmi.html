@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>BMI Calculator</title>
+  </head>
+  
+  <body>
+  
+    <h1 id="Firstheading">BMI Calculator</h1>
+    <label for = "thebox">Weight</label>
+    <input type = "text" id="thebox">
+    <label for = "thebox2">Height</label>
+    <input type = "text" id="thebox2">
+    <button onlick = "convert();">Convert</button>
+    <h2 id = "output"></h2>
+    
+    <script>
+      convert = function(){
+        var calculate;
+        BMI = (weight * 703)/(height * height)
+        
+        thebox = document.querySelector("#thebox");
+        calculate = thebox.value;
+        alert(calculate);
+        theh2 = document.querySelector("#output");
+        theh2.innerHTML = "Result:" + " " + calculate;
+      }
+      
+      document.body.style.backgroundColor = "#B2FFE5";
+      
+      Fh1 = document.querySelector("#Firstheading");
+      Fh1.style.textAlign = "center";
+      Fh1.style.fontSize = "26px";
+      
+    </script>
+  </body>
+</html>
