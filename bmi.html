@@ -1,36 +1,61 @@
 <html>
-  <head>
-    <title>BMI Calculator</title>
-  </head>
-  
-  <body>
-  
-    <h1 id="Firstheading">BMI Calculator</h1>
-    <label for = "thebox">Weight</label>
-    <input type = "text" id="thebox">
-    <label for = "thebox2">Height</label>
-    <input type = "text" id="thebox2">
-    <button onlick = "convert();">Convert</button>
-    <h2 id = "output"></h2>
+    <head>
+        <title>Body Mass Calculator</title>
+        <link rel="stylesheet" type="text/css" href="bmi.css">
+    </head>
+    <body>
+    <h1>BMI Calculator </h1>
+    <h4> Please enter your weight in pounds and height in inches</h4>
     
-    <script>
-      convert = function(){
-        var calculate;
-        BMI = (weight * 703)/(height * height)
+    <label for="w"> Weight </label>
+    <input type ="range" min=0  max=400 id="w" onmousemove="calculate();" value="0">
+    
+    <label for="h"> Height </label>
+     <input type ="range" min=0  max=100 id="h" onmousemove="calculate();" value="0">
         
-        thebox = document.querySelector("#thebox");
-        calculate = thebox.value;
-        alert(calculate);
-        theh2 = document.querySelector("#output");
-        theh2.innerHTML = "Result:" + " " + calculate;
-      }
-      
-      document.body.style.backgroundColor = "#9999FF";
-      
-      Fh1 = document.querySelector("#Firstheading");
-      Fh1.style.textAlign = "center";
-      Fh1.style.fontSize = "26px";
-      
+    <h2 id="outputbmi"> BMI: 0 </h1>
+    <h2 id="outputw"> Weight: 0 </h1>
+    <h2 id="outputh"> Height: 0 </h1>
+    
+<table align="center">
+<caption>BMI Classifications</caption>
+<tr>
+     <th>BMI</th>
+     <th>Observation</th>
+ </tr>
+ <tr>
+     <td>less than 18.5</td>
+     <td>Underweight</td>
+ </tr>
+ <tr>
+     <td>18.5-24.99</td>
+     <td>Nornal Weight</td>
+ </tr>
+ <tr>
+     <td>25-29.99</td>
+     <td>Overweight</td>
+ </tr>
+ <tr>
+     <td>more than 24.99</td>
+     <td>Obesity</td>
+ </tr>
+</table>
+    <script>
+        calculate=function()
+        
+        {weight=document.querySelector("#w").value;
+        height=document.querySelector("#h").value;
+        bmi= (weight * 703)/(height*height);  
+         
+        bmih2=document.querySelector("#outputbmi");
+        wh2=document.querySelector("#outputw");
+        hh2=document.querySelector("#outputh"); 
+        
+         
+        bmih2.innerHTML=" Your BMI is: "+ bmi;
+        wh2.innerHTML="Weight: "+ weight;
+        hh2.innerHTML="Height:"+ height;}
+        
     </script>
-  </body>
+    </body>
 </html>
