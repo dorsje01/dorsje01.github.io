@@ -1,0 +1,39 @@
+ #w {width:30%}
+        #h {width:30%}
+        
+        h1{
+        color:darkgreen;
+        text-align: center;
+        text-decoration: underline;}
+        
+        h2{
+        color:darkgreen;
+        text-align: center;}
+        
+        h4{
+        color:green}
+        
+        body{
+        background-color:#FFFFCC}   
+        
+        table {border-style: solid; 
+            border-width: 1px;
+            width: 50%;
+            border-spacing: 4px
+            float: center;
+        }
+     
+     th    {border-style: solid; 
+            border-width: 1px;
+            border-color: orange;
+            background-color: SandyBrown ;
+            text-align: center;}
+     
+     td    {border-style: solid; 
+            border-width: 2px;
+            border-color: blue;
+            background-color: lightblue;
+            text-align:center;}
+     
+     caption {color: darkblue;
+              font-size: 20px}
