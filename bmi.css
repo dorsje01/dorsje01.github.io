@@ -14,7 +14,7 @@
         color:green}
         
         body{
-        background-color: #D6EBFF}   
+        background-color: lightgrey}   
         
         table {border-style: solid; 
             border-width: 1px;
@@ -35,5 +35,5 @@
             background-color: #D1B2F0;
             text-align:center;}
      
-     caption {color: #808080;
+     caption {color: MidnightBlue;
               font-size: 20px}
