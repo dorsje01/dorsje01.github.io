@@ -8,7 +8,7 @@ header {background-color: MidnightBlue;
         width: 100%;
         height: 50px;}
 
-body    {background-color:MidnightBlue}
+body    {background-color:#D1D1E2}
 
 section {top: 120px;
          float:center;}
@@ -17,18 +17,18 @@ leftsection {float: left;
              width: 30%;
              height: 900px;
              left: 0px;
-             background-color: MidnightBlue;
+             background-color: #D1D1E2;
              color: white;}
              
 rightside {float: left;
            width: 70%;
            height: 900px;
-           background-color: MidnightBlue;}
+           background-color: #D1D1E2;}
              
 footer {clear: both;
-        background-color: MidnightBlue;}
+        background-color: #D1D1E2;}
         
-h1 {color: MidnightBlue; 
+h1 {color: #D1D1E2; 
     font-size: 40pt; 
     text-align: center;
     text-decoration: underline;}
@@ -54,7 +54,7 @@ th    {border-style: dotted;
      
 td    {border-width: 2px;
         border-style: dotted;
-       background-color: #D1D1E2;
+       background-color: MidnightBlue;
        text-align:center;}
              
 caption {color: MidnightBlue;
