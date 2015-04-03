@@ -39,13 +39,13 @@ h2 {color: #00478F;
 
 h3 {color:#336699;}
 
-table {border-style: solid; 
+table {border-style: dotted; 
        border-width: 1px;
        width: 75%;
        border-spacing: 4px
        float: center;}
      
-th    {border-style: solid; 
+th    {border-style: dotted; 
        border-width: 1px;
        border-color: #191970;
        background-color: #336699;
