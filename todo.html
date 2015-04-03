@@ -1,0 +1,93 @@
+<html>
+    <head>
+    <title>To do List</title>  
+    
+    <link rel="stylesheet" type="text/css" href="masterdesign.css">
+    
+    <style>
+
+    section{
+      position: relative;
+      top: 50px;
+      left: 350px;
+      width: 500px;
+      height: 500px;
+      padding: 20px;
+      border: 10px solid #006699;}
+      
+    li {list-style-type: none}
+    .complete 
+        {text-decoration: line-through;}
+        
+    .Urgent {color:red}
+    .Important {color:green}
+    .Normal {color:black}
+
+    </style>
+    </head>
+    
+<header> To Do List</header>
+<body>
+
+<section>
+    <label for="todo"> Activity: </label>
+    <input type ="text" id="todo"> 
+    
+    <select id="priority">
+        
+        <option>Urgent</option>
+        <option>Important</option>
+        <option>Normal</option>
+
+    </select>
+        
+    <button onclick="addlist()"> Add</button>
+    <ul id="output"></ul>
+    <button onclick="cleartodo()"> Clear Items </button>    
+    
+    
+
+</section>
+</body>
+
+
+    
+   <script>
+   
+       addlist=function() 
+       
+       {todo=document.querySelector("#todo").value;
+       document.querySelector("#todo").value="";
+       newactivity=document.createElement("li");
+          
+           
+       checkbox = document.createElement("input");
+       checkbox.type="checkbox";
+       newactivity.appendChild(checkbox);
+           
+           
+       newinput = document.createTextNode(todo); 
+       newactivity.appendChild(newinput);
+           
+           
+       todolist=document.querySelector("#output");
+       checkbox.onclick=select;
+       todolist.appendChild(newactivity);
+           
+       priorityoption=document.querySelector("#priority");
+       priorityindex=priorityoption.selectedIndex;
+       priority=priorityoption.options[priorityindex].value;
+       newactivity.classList.add(priority);
+       }
+        
+        select = function() {
+        if (this.checked)
+            this.parentNode.classList.add("complete");
+        else
+            this.parentNode.classList.remove("complete");}
+            
+        cleartodo= function ()
+        { todolist=document.querySelector("#output")
+          todolist.innerHTML=""}
+</script>    
+</html>
