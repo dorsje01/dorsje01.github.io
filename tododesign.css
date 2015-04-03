@@ -51,12 +51,5 @@ th    {border-style: dotted;
        background-color: #D1D1E2;
        color:white;
        text-align: center;}
-     
-td    {border-width: 2px;
-        border-style: dotted;
-        border-color: MidnightBlue;
-       background-color: MidnightBlue;
-       text-align:center;}
-             
-caption {color: MidnightBlue;
-         font-size: 20px}
+
+
