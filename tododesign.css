@@ -54,6 +54,7 @@ th    {border-style: dotted;
      
 td    {border-width: 2px;
         border-style: dotted;
+        border-color: MidnightBlue;
        background-color: MidnightBlue;
        text-align:center;}
              
