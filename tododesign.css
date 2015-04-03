@@ -14,21 +14,21 @@ section {top: 120px;
          float:center;}
         
 leftsection {float: left;
-             width: 20%;
+             width: 30%;
              height: 900px;
              left: 0px;
              background-color: #D1D1E2;
              color: white;}
              
 rightside {float: left;
-           width: 80%;
+           width: 70%;
            height: 900px;
            background-color: #D1D1E2;}
              
 footer {clear: both;
         background-color: #D1D1E2;}
         
-h1 {color: MignightBlue; 
+h1 {color: MidnightBlue; 
     font-size: 40pt; 
     text-align: center;
     text-decoration: underline;}
