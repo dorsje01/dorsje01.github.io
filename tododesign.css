@@ -14,14 +14,14 @@ section {top: 120px;
          float:center;}
         
 leftsection {float: left;
-             width: 30%;
+             width: 50%;
              height: 900px;
              left: 0px;
              background-color: #D1D1E2;
              color: white;}
              
 rightside {float: left;
-           width: 70%;
+           width: 50%;
            height: 900px;
            background-color: #D1D1E2;}
              
@@ -37,7 +37,7 @@ h2 {color: #00478F;
     font-size: 20pt;
     text-align: center;}
 
-h3 {color:#A3A3C6;}
+h3 {color:MidnightBlue;}
 
 table {border-style: dotted; 
        border-width: 1px;
