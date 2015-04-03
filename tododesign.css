@@ -8,7 +8,7 @@ header {background-color: MidnightBlue;
         width: 100%;
         height: 50px;}
 
-body    {background-color:#A3A3C6}
+body    {background-color:#D1D1E2}
 
 section {top: 120px;
          float:center;}
@@ -17,16 +17,16 @@ leftsection {float: left;
              width: 20%;
              height: 900px;
              left: 0px;
-             background-color: #A3A3C6;
+             background-color: #D1D1E2;
              color: white;}
              
 rightside {float: left;
            width: 80%;
            height: 900px;
-           background-color: #A3A3C6;}
+           background-color: #D1D1E2;}
              
 footer {clear: both;
-        background-color: #A3A3C6;}
+        background-color: #D1D1E2;}
         
 h1 {color: MignightBlue; 
     font-size: 40pt; 
@@ -45,16 +45,17 @@ table {border-style: dotted;
        border-spacing: 4px
        float: center;}
      
-th    {border-style: solid; 
+th    {border-style: dotted; 
        border-width: 1px;
        border-color: #0F1F2E;
-       background-color: #336699;
+       background-color: #D1D1E2;
        color:white;
        text-align: center;}
      
 td    {border-width: 2px;
-       background-color: lightblue;
+        border-style: dotted;
+       background-color: #D1D1E2;
        text-align:center;}
              
-caption {color: darkblue;
+caption {color: MidnightBlue;
          font-size: 20px}
