@@ -10,46 +10,4 @@ header {background-color: MidnightBlue;
 
 body    {background-color:#D1D1E2}
 
-section {top: 120px;
-         float:center;}
-        
-leftsection {float: left;
-             width: 50%;
-             height: 900px;
-             left: 0px;
-             background-color: #D1D1E2;
-             color: white;}
-             
-rightside {float: left;
-           width: 50%;
-           height: 900px;
-           background-color: #D1D1E2;}
-             
-footer {clear: both;
-        background-color: #D1D1E2;}
-        
-h1 {color: #D1D1E2; 
-    font-size: 40pt; 
-    text-align: center;
-    text-decoration: underline;}
-    
-h2 {color: #00478F; 
-    font-size: 20pt;
-    text-align: center;}
-
-h3 {color:MidnightBlue;}
-
-table {border-style: dotted; 
-       border-width: 1px;
-       width: 75%;
-       border-spacing: 4px
-       float: center;}
-     
-th    {border-style: dotted; 
-       border-width: 1px;
-       border-color: MidnightBlue;
-       background-color: #D1D1E2;
-       color:white;
-       text-align: center;}
-
 
